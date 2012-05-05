@@ -1,0 +1,13 @@
+welcome to LOGGER's README
+
+
+	FIRST TIME
+1.For using LOGGER you need to be root user.
+2.Execute first.sh with your default keyboard device
+3.Execute start.sh
+	LOGGER is RUNNING.
+
+
+
+	PERMANENT LOGGING
+1.put start.sh in startup Application.
